@@ -17,7 +17,6 @@ const tag = (type: NodeType) => (value: string) => ({ type, value });
 const join = (arr: string[]) => arr.join('');
 const middle = ([_open, value, _close]: string[]) => value;
 
-
 const openComment = Pr.string('{{!');
 const openMustache = Pr.string('{{');
 const closeMustache = Pr.string('}}');
